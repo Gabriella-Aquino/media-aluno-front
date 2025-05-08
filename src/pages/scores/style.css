@@ -1,0 +1,71 @@
+.score_container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.scores_content{
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.input_container{
+  width: 90px;
+}
+.input_container input{
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+.input_container button{
+  width: 100%;
+}
+
+.buttons_container{
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  align-items: center;
+}
+
+.btn_primary{
+  background: #870cda;
+  color: white;
+  font-weight: bold;
+}
+.input_count_container{
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  justify-content: start;
+}
+.input_count_container input{
+  width: 50px;
+}
+
+
+.subjects_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.subject_button{
+  padding: 4px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+.subject_button.subject_button_selected{
+  border: none;
+  color: white;
+  background-color: #870cda;
+}
