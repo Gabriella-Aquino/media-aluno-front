@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/notas/:id' element={<Scores/>}/>
+        <Route path='/notas/editar/:id' element={<Scores isEdit/>}/>
       </Routes>
     </>
   )
